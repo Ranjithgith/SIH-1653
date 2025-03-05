@@ -17,83 +17,81 @@ Ministry of Defence
 
 ## Idea
 
-The proposed solution is a web-based AI-driven interview simulation software that replicates a real-life boardroom interview experience. The system will:
-
-* Automate the interview process using AI-driven dynamic questioning.
-
-* Evaluate both interviewers and candidates based on relevancy and scoring mechanisms.
-
-* Ensure an unbiased, standardized assessment process using NLP & ML models.
-
-* Provide a virtual interview boardroom experience with real-time feedback.
-
+The Web-Based Selector Applicant Simulation Software automates applicant evaluation for job recruitment, university admissions, and grant approvals. Organizations can set custom selection criteria, and the system uses rule-based or AI-driven models to rank applicants.It features simulation-based decision-making, data analytics, and reporting to improve transparency and efficiency. The web-based platform integrates with HR and university systems and provides role-based access for applicants, evaluators, and administrators.By reducing manual effort, minimizing bias, and enhancing decision-making, this software streamlines the selection process, ensuring a fair, data-driven, and efficient approach to applicant evaluation.
 
 ## Proposed Solution / Architecture Diagram
+
+1. User Interface (Frontend) – Presentation Layer
+  * Web-based application (React, Angular, or Vue.js)
+  * User authentication & dashboard
+  * Forms for applicant data entry & criteria selection
+  * Visualization of results and reports
+
+2. Backend – Application Layer
+  * Business logic for applicant evaluation & ranking
+  * Selection algorithm (rule-based, AI-powered, or weighted scoring)
+  * API endpoints for data processing (REST/GraphQL)
+  * Report generation and notifications
+
+3. Database – Storage Layer
+  * SQL (MySQL/PostgreSQL) for structured applicant data
+  * NoSQL (MongoDB/Firebase) for dynamic evaluation models
+  * Cloud Storage for uploaded documents
+
+4. External Services
+  * Authentication (OAuth, JWT-based security)
+  * Document verification APIs
+  * Third-party analytics/reporting tools
+
+5. Cloud Hosting (Optional)
+  * AWS/Azure/GCP for scalable deployment
+  * CI/CD pipeline for automated updates
+
+![Screenshot 2025-03-05 203454](https://github.com/user-attachments/assets/f99cfc2a-2b28-4a0e-8819-1fb05ce67568)
 
 
 ## Use Cases
 
-### 1. Candidate Registration & Profile Setup
+1. User Authentication & Role-Based Access
+   * Users (admin, evaluators, applicants) log in using credentials or third-party authentication.
 
-Candidates sign up and fill in expertise areas.
+2. Creating a New Selection Simulation
+   * Admins define selection criteria, weightages, and simulation models.
 
-AI recommends probable questions based on the profile.
+3. Applicant Data Entry & Document Upload
+   * Applicants submit personal details, qualifications, and supporting documents.
 
-### 2. AI-driven Interview Simulation
+4. Running the Selection Simulation
+   * The system processes applicants based on the defined criteria.
+   * AI/ML-based ranking or rule-based filtering is applied.
 
-Virtual Boardroom experience using AI-generated dynamic questioning.
+5. Viewing and Analyzing Results
+  * Evaluators access the shortlisted candidates with analytics.
+  * Data visualization for better decision-making.
 
-Ice-breaking questions followed by technical and managerial queries.
+6. Generating Reports & Notifications
+  * Results can be exported as PDF, Excel, or sent via email.
 
-### 3. Real-time Scoring & Evaluation
+7. Final Selection & Feedback
+  * Admins finalize the selection and notify successful applicants.
 
-NLP & AI models assess the relevancy of candidate responses.
-
-Interviewer’s question relevancy is also evaluated.
-
-Final score calculation based on multiple factors (technical, managerial, communication skills).
-
-### 4. Interviewer Panel & Reporting
-
-Live scoring dashboard for interviewers.
-
-Interviewer performance analytics.
-
-Final candidate ranking & report generation.
-
-### 5. System Administration & Security
-
-Role-based access control (RBAC) for users.
-
-Logging & monitoring of interviews.
-
-Compliance with data security standards.
+![Screenshot 2025-03-05 204416](https://github.com/user-attachments/assets/ff22fe99-675e-4e14-9510-eda61845fe3a)
 
 ## Technology Stack
-
-Frontend: React.js, Tailwind CSS
-
-Backend: Node.js with Express.js
-
-Database: PostgreSQL or MongoDB
-
-AI/NLP Processing: Python (TensorFlow, NLTK, GPT-based models)
-
-Authentication: OAuth, JWT
-
-Video Conferencing: WebRTC, Jitsi
-
-Hosting & Deployment: AWS/GCP/Azure, Docker, Kubernetes
+* React.js,Angular,Vue.js
+* Node.js,Python(Django),Java(Spring Boot)
+* PostgreSQL,MySQL,MongoDB
+* Firebase Auth,Auth0,JWT
+* AWS S3,Google Cloud Storage
+* AWS,Vercel,Netlify,Docker,Kubernetes
+* Puppeteer,ExcelJs,Chart.js
+* Twilio(SMS),SendGrid(Email)
 
 ## Dependencies
+*React-router,axios,formil or react-hook-from,chart.js or D3.js
+*express,jsonwebtoken,multer,dotenv
+*sequelize,mongoose
+*puppeteer,nodemailer
+*docker-compose,pm2
 
-AI/ML Models: NLP-based models for text comprehension and scoring
-
-Video Conferencing Integration: WebRTC or third-party APIs
-
-Secure Authentication: OAuth-based user management
-
-Database Management: Scalable and secure database handling
-
-Cloud Hosting: Ensuring high availability and performance
 
