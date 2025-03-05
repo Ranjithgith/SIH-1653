@@ -1,7 +1,7 @@
 # SMART INDIA HACKATHON WORKSHOP
-# DATE:
-# REGISTER NUMBER:212224110041
-# NAME:S.NAVINKUMAR
+# DATE:05/03/2025
+# REGISTER NUMBER:212224240131
+# NAME:R.RANJITH KUMAR
 
 ## PROBLEM TITLE:
 
@@ -47,7 +47,8 @@ The Web-Based Selector Applicant Simulation Software automates applicant evaluat
   * AWS/Azure/GCP for scalable deployment
   * CI/CD pipeline for automated updates
 
-![Screenshot 2025-03-05 203454](https://github.com/user-attachments/assets/f99cfc2a-2b28-4a0e-8819-1fb05ce67568)
+![0101](https://github.com/user-attachments/assets/1bd73312-ce74-437a-86ec-b10ce9dec19d)
+
 
 
 ## USE CASES:
@@ -75,7 +76,7 @@ The Web-Based Selector Applicant Simulation Software automates applicant evaluat
 #### 7. Final Selection & Feedback
   * Admins finalize the selection and notify successful applicants.
 
-![Screenshot 2025-03-05 204416](https://github.com/user-attachments/assets/ff22fe99-675e-4e14-9510-eda61845fe3a)
+![0202](https://github.com/user-attachments/assets/9bfed07b-1dfa-4a3f-b72f-5c8a2de2eb83)
 
 ## TECHNOLOGY STACK:
 * React.js,Angular,Vue.js
