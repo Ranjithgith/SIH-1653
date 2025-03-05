@@ -89,14 +89,14 @@ The Web-Based Selector Applicant Simulation Software automates applicant evaluat
   
 
 ## DEPENDENCIES:
-*React-router,axios,formil or react-hook-from,chart.js or D3.js
+* React-router,axios,formil or react-hook-from,chart.js or D3.js
 
-*express,jsonwebtoken,multer,dotenv
+* express,jsonwebtoken,multer,dotenv
 
-*sequelize,mongoose
+* sequelize,mongoose
 
-*puppeteer,nodemailer
+* puppeteer,nodemailer
 
-*docker-compose,pm2
+* docker-compose,pm2
 
 
